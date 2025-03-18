@@ -14,7 +14,7 @@ jobs:
          platform: [ubuntu-latest, macOS, windows-latest]
          include:
            - version: "3.6"
-           - platform: ubuntu-lates
+           - platform: ubuntu-latest
          exclude:
            - version: "3.10"
            - platform: windows-latest
