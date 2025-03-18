@@ -11,7 +11,7 @@ jobs:
     strategy:
        matrix:
          version: ["3.10", "3.9", "3.8", "3.7"]
-         platform: [Ubuntu, macOS, Windows]
+         platform: [ubuntu-latest, macOS, windows-latest]
          include:
            - version: "3.6"
            - platform: ubuntu-lates
